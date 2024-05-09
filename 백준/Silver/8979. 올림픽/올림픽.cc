@@ -21,7 +21,7 @@ int main() {
 		silver[num] = silver_num;
 		bronze[num] = bronze_num;
 	}
-	for (int i = 1; i < country; i++) {
+	for (int i = 1; i <= country; i++) {
 		if (gold[i] > gold[guess]) {
 			ranking++;
 		}
